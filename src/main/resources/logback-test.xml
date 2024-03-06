@@ -1,0 +1,2 @@
+<!-- Desactiva el log extenso provocado por Selenium 4, mas info: https://mkyong.com/logging/logback-disable-logging-in-unit-test/ ! -->
+<configuration />

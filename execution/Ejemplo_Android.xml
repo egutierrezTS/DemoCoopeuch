@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuit-Casos-Android">
+
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Galaxy Note 10 Plus"/>
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="navegador" value="Chrome"/>
+    <parameter name="url" value="https://www.google.cl/"/>
+    <parameter name="username" value="albravo"/>
+    <parameter name="key" value="BzSgpQ26rbbmIqRAxnzzgsazR049kT2yC3cJpfvmML4f4cdHVd"/>
+    <parameter name="carpetaReporte" value="C:\Workspace\Common\pruebas_regresion\common-v2\HTMLREPORTS"/>
+
+    <test name="Test_Ejemplo_Mobile">
+        <classes>
+            <class name="testCases.Test_Ejemplo_Mobile"/>
+        </classes>
+    </test>
+
+</suite>
+

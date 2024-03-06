@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuit casos general iOS">
+ 
+  <parameter name="platformName" value="IOS"></parameter>
+  <parameter name="deviceName" value="iPhone 12 Pro Max"></parameter>
+  <parameter name="platformVersion" value="14.5"></parameter>
+  <parameter name="navegador" value="Safari"></parameter>
+  <parameter name="url" value="https://www.google.cl/"></parameter>
+  <parameter name="username" value="albravo"></parameter>
+  <parameter  name="key" value="BzSgpQ26rbbmIqRAxnzzgsazR049kT2yC3cJpfvmML4f4cdHVd"></parameter>
+  <parameter name="carpetaReporte" value="C:\Workspace\Common\pruebas_regresion\common-v2\HTMLREPORTS"></parameter>   
+      
+       <!--      -->             
+     
+       <test name="Test_Ejemplo_Mobile">
+            <classes>
+                <class name="testCases.Test_Ejemplo_Mobile"/>
+            </classes>
+       </test>
+
+	    
+	    
+</suite>
+
