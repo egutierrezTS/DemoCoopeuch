@@ -4,24 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>Common</groupId>
-    <artifactId>Common_tsoft</artifactId>
-    <version>3.6.5-SNAPSHOT</version>
+    <artifactId>Common_technology</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>http://10.164.185.66:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>nexus-snapshots</id>
-            <url>http://10.164.185.66:8081/repository/maven-snapshots/</url>
-        </repository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
