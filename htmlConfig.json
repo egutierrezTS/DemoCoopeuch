@@ -1,0 +1,12 @@
+{
+  "theme": "DARK",
+  "encoding": "UTF-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": false,
+  "documentTitle": "Demo Report",
+  "reportName": "Demo Report",
+  "timeStampFormat": "dd MMM, yyyy HH:mm:ss a",
+  "js": "",
+  "css": ".header .vheader .nav-logo > a .logo {background-image: url('https://static.coopeuch.cl/media/logo/stores/1/logocoop.png')!important;background-size: 150px;width: 1000%;} .header .vheader .nav-logo {width: 180px;} table > tbody > tr > td{    word-break: keep-all;}"
+}
