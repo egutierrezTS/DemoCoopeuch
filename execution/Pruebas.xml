@@ -6,24 +6,11 @@
     <parameter name="browser" value="Chrome"/>
     <parameter name="url" value="https://www.google.cl/"/>
     <parameter name="carpetaReporte" value="C:\Jenkins\common-v2"/>
-  
-    <test name="Pruebas Navegador: IExplorer" enabled="true">
-        <parameter name="browser" value="explorer"/>
-        <classes>
-            <class name="testCases.TestBusqueda"/>
-        </classes>
-    </test>
 
     <test name="Pruebas Navegador: Chrome" enabled="true">
         <parameter name="datoBusqueda" value="Imed"/>
         <classes>
             <class name="testCases.TestBusquedaConFiltro"/>
-        </classes>
-    </test>
-
-    <test name="Pruebas Reporte HTML" enabled="true">
-        <classes>
-            <class name="testCases.TestReport"/>
         </classes>
     </test>
 
