@@ -8,7 +8,7 @@
     <parameter name="carpetaReporte" value="C:\Jenkins\common-v2"/>
 
     <test name="Pruebas Navegador: Chrome" enabled="true">
-        <parameter name="datoBusqueda" value="Imed"/>
+        <parameter name="datoBusqueda" value="Coopeuch"/>
         <classes>
             <class name="testCases.TestBusquedaConFiltro"/>
         </classes>
